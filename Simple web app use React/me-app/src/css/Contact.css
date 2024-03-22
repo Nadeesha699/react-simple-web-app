@@ -1,0 +1,190 @@
+.main-contact {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(255, 2, 74);
+  padding: 2%;
+  margin-top: 4%;
+}
+
+.main-contact h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 8px;
+  font-size: 27px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  text-shadow: 20px 20px 25px rgb(0, 0, 0);
+}
+
+.main-contact h5 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    text-shadow: 10px 10px 10px black;
+}
+
+.main-contact p {
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-shadow: 5px 5px 5px rgba(255, 255, 255, 0.181);
+  line-height: 20px;
+  font-weight: bold;
+}
+
+.lbl-email {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 4px;
+    font-size: 15px;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-shadow: 5px 5px 5px black;
+}
+
+.lbl-name {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 4px;
+    font-size: 13px;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    transition: all 1000ms ease-in-out;
+}
+
+.lbl-name:hover{
+    color: rgb(255, 196, 0); 
+    letter-spacing: 6px;
+}
+
+.submian-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.submian-form input{
+  border-radius: 20px;
+  padding: 2%;
+  border-width: 4px;
+  animation: bordercolor 20s infinite alternate-reverse ;
+  transition: all 1000ms ease-in-out;
+  font-weight: bold;
+  font-size: 13px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 190px;
+  box-shadow: 15px 5px 5px black;
+}
+
+.submian-form button{
+    background-image: url(../image/home-img2.jpg);
+    background-position: center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    width: 50%;
+    padding: 2%;
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 15px 5px 5px black;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: all 1000ms ease-in-out;
+}
+
+.submian-form button:hover{
+    background-color: rgb(0, 0, 0);
+    letter-spacing: 3px;
+    box-shadow: 15px 5px 5px rgba(255, 255, 255, 0);
+}
+
+@keyframes bordercolor {
+    0% {
+      border-color: rgb(255, 23, 108);
+    }
+    10% {
+        border-color: rgb(21, 155, 232);
+    }
+    20% {
+        border-color: rgb(255, 23, 108);
+    }
+    30% {
+        border-color: rgb(21, 155, 232);
+    }
+    40% {
+        border-color: rgb(255, 23, 108);
+    }
+    50% {
+        border-color: rgb(21, 155, 232);
+    }
+    60% {
+        border-color: rgb(255, 23, 108);
+    }
+    70% {
+        border-color: rgb(21, 155, 232);
+    }
+    80% {
+        border-color: rgb(255, 23, 108);
+    }
+    90% {
+        border-color: rgb(21, 155, 232);
+    }
+    100% {
+        border-color: rgb(255, 23, 108);
+    }
+  }
+
+  .submain-icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+  .submain-icon img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    transition: all 1000ms ease-in-out;
+  }
+
+  .submain-icon img:hover{
+    width: 29px;
+    height: 29px;
+  }
+
+  .display-success{
+    display: flex;
+    flex-direction: row;
+    background-image: url(../image/home-img2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    justify-content: left;
+    position: fixed;
+    top: 90%;
+    padding: 5px;
+    width: 11%;
+    font-weight: bold;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    letter-spacing: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 500ms ease-in-out;
+    box-shadow: 20px 20px 20px black;
+}
+
+.display-success button{
+    border-radius: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    font-size: 12px;
+    background-color: rgb(255, 0, 128);
+    color: white;
+    font-weight: bold;
+}

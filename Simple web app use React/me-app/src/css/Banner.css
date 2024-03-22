@@ -1,0 +1,186 @@
+.main-banner {
+  margin-top: 10%;   
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  animation: changebanner 20s infinite alternate-reverse;
+  padding: 7%;
+  background-image: url(../image/home-img4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: darken;
+  z-index: -1;
+  margin-left: 10%;
+  margin-right: 10%;
+  box-shadow: 20px 20px 20px black;
+}
+
+.main-banner img {
+  width: 120px;
+  height: 120px;
+  animation: drivetruck 20s infinite alternate-reverse;
+}
+
+.submain-banner{
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+.main-banner .lbl-dis{
+  font-weight: bold;
+  color: rgb(255, 230, 0);
+  font-size: 43px;
+  text-shadow: 10px 5px 50px rgb(0, 0, 0);
+  transition: all 2000ms ease-in-out;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.main-banner .lbl-more{
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    animation: changemore 20s infinite alternate-reverse;
+}
+
+@keyframes changemore {
+    0% {
+      letter-spacing: 1px;
+    }
+    10% {
+        letter-spacing: 2px;
+    }
+    20% {
+        letter-spacing: 3px;
+    }
+    30% {
+        letter-spacing: 4px;
+    }
+    40% {
+        letter-spacing: 5px;
+    }
+    50% {
+        letter-spacing: 6px;
+    }
+    60% {
+        letter-spacing: 7px;
+    }
+    70% {
+        letter-spacing: 8px;
+    }
+    80% {
+        letter-spacing: 9px;
+    }
+    90% {
+        letter-spacing: 10px;
+    }
+    100% {
+        letter-spacing: 11px;
+    }
+  }
+
+@keyframes drivetruck {
+  0% {
+    margin-left: 0px;
+  }
+  10% {
+    margin-left: 60px;
+  }
+  20% {
+    margin-left: 120px;
+  }
+  30% {
+    margin-left: 180px;
+  }
+  40% {
+    margin-left: 240px;
+  }
+  50% {
+    margin-left: 300px;
+  }
+  60% {
+    margin-left: 360px;
+  }
+  70% {
+    margin-left: 420px;
+  }
+  80% {
+    margin-left: 480px;
+  }
+  90% {
+    margin-left: 540px;
+  }
+  100% {
+    margin-left: 600px;
+  }
+}
+
+@keyframes changebanner {
+  0% {
+    border-top-left-radius: 200px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 70px;
+  }
+  10% {
+    border-top-left-radius: 70px;
+    border-top-right-radius: 80px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 200px;
+  }
+  20% {
+    border-top-left-radius: 90px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 130px;
+  }
+  30% {
+    border-top-left-radius: 140px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 50px;
+  }
+  40% {
+    border-top-left-radius: 200px;
+    border-top-right-radius: 120px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 170px;
+  }
+  50% {
+    border-top-left-radius: 60px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 60px;
+  }
+  60% {
+    border-top-left-radius: 140px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 160px;
+    border-bottom-right-radius: 80px;
+  }
+  70% {
+    border-top-left-radius: 60px;
+    border-top-right-radius: 150px;
+    border-bottom-left-radius: 190px;
+    border-bottom-right-radius: 120px;
+  }
+  80% {
+    border-top-left-radius: 140px;
+    border-top-right-radius: 60px;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 200px;
+  }
+  90% {
+    border-top-left-radius: 70px;
+    border-top-right-radius: 140px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 150px;
+  }
+  100% {
+    border-top-left-radius: 170px;
+    border-top-right-radius: 200px;
+    border-bottom-left-radius: 150px;
+    border-bottom-right-radius: 90px;
+  }
+}

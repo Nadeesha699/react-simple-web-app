@@ -1,0 +1,186 @@
+.header {
+  cursor: pointer;  
+  background-color: rgba(0, 0, 0, 0.366);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 15%;
+  box-shadow: 15px 15px 15px rgb(0, 0, 0);
+  /* animation: backgrounds 50s infinite alternate-reverse; */
+}
+@keyframes backgrounds {
+    0%{
+        background-color: rgb(255, 23, 108);
+    }
+    10%{
+        background-color: rgb(21, 155, 232);  
+    }
+    20%{
+        background-color: rgb(255, 23, 108);
+    }
+    30%{
+        background-color: rgb(21, 155, 232); 
+    }
+    40%{
+        background-color: rgb(255, 23, 108);  
+    }
+    50%{
+        background-color: rgb(21, 155, 232);  
+    }
+    60%{
+        background-color: rgb(255, 23, 108);
+    }
+    70%{
+        background-color: rgb(21, 155, 232);  
+    }
+    80%{
+        background-color: rgb(255, 23, 108);
+    }
+    90%{
+        background-color: rgb(21, 155, 232); 
+    }
+    100%{
+        background-color: rgb(255, 23, 108);
+    }
+}
+
+.header h1 {
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 5px;
+  font-size: 40px;
+  cursor: pointer;
+  color: white;
+  left: 2%;
+  position: fixed;
+}
+
+.lbl-reg {
+  visibility: hidden;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 2px;
+  color: white;
+  right: 13%;
+  top: 5%;
+  position: fixed;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 1000ms ease-in-out;
+}
+
+.lbl-reg:hover{
+    letter-spacing: 4px;
+    color: rgb(0, 0, 0);
+}
+
+.lbl-menu:hover{
+    letter-spacing: 4px;
+    color: rgb(0, 0, 0);
+}
+
+.lbl-menu {
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+    letter-spacing: 2px;
+    color: white;
+    right: 2%;
+    top: 5%;
+    position: fixed;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 1000ms ease-in-out;
+  }
+
+  .menu{
+    cursor: pointer;  
+    background-color: rgb(231, 86, 139);
+    position: fixed;
+    bottom: 0;
+    padding: 3%;
+    top: 5%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    border-radius: 10px;
+    transition: all 1000ms ease-in-out;
+  }
+
+  .menu:hover{
+    background-color: rgb(86, 180, 231);
+  }
+
+  .lbl-home{
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    transition: all 1000ms ease-in-out;
+  }
+
+  .lbl-home:hover{
+    color: white;
+    letter-spacing: 2px;
+  }
+
+  .lbl-contact{
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    transition: all 1000ms ease-in-out;
+  }
+
+  .lbl-contact:hover{
+    color: white;
+    letter-spacing: 2px;
+  }
+
+  .lbl-about{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    position: relative;
+    font-weight: bold;
+    font-size: 13px;
+    transition: all 1000ms ease-in-out;
+  }
+
+  .lbl-about:hover{
+    color: white;
+    letter-spacing: 2px;
+  }
+
+  .lbl-shop{
+    cursor: pointer;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 13px;
+    transition: all 1000ms ease-in-out;
+  }
+
+  .lbl-shop:hover{
+    color: white;
+    letter-spacing: 2px;
+  }
+
+  .lbl-close{
+    right: 0;
+    cursor: pointer;
+    position: relative;
+    font-weight: bold;
+    font-size: 19px;
+    transition: all 1000ms ease-in-out;
+  }
+
+  .lbl-close:hover{
+    color: white;
+    letter-spacing: 2px;
+  }

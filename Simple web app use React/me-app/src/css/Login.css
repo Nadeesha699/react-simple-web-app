@@ -1,0 +1,191 @@
+.login-background {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.login-card{
+    background-color: tomato;
+    top: 20%;
+    position: fixed;
+    padding: 4%;
+    animation: changeBackground 20s alternate-reverse infinite;
+    transition: all 1000ms ease-in-out;
+}
+.login-card input{
+  border-radius: 20px;
+  padding: 3%;
+  font-weight: bold;
+  margin-bottom: 10%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 70%;
+  border-top-color: white;
+  border-bottom-color: black;
+  border-left-color: white;
+  border-right-color: black;
+  border-width: 3px;
+  font-size: 15px;
+  transition: all 2000ms ease-in-out;
+}
+
+.login-card input:hover{
+    width: 90%;
+    padding: 5%;
+}
+
+.login-card h1{
+    text-shadow: 5px 5px 5px white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 20px;
+    font-size: 60px;
+    margin-bottom: 37%;
+    cursor: pointer;
+}
+
+.login-card button{
+    background-color: deeppink;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 4px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    width: 40%;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: all 2000ms ease-in-out;
+}
+
+.login-card button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    letter-spacing: 8px;
+}
+
+@keyframes changeBackground {
+    0%{
+        background-color: rgb(0, 187, 255);
+        border-top-left-radius: 200px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 70px;
+    }
+    10%{
+        background-color: rgb(0, 145, 255);
+        border-top-left-radius: 70px;
+        border-top-right-radius: 80px;
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 200px;
+    }
+    20%{
+        background-color: rgb(0, 123, 255);
+        border-top-left-radius: 90px;
+        border-top-right-radius: 150px;
+        border-bottom-left-radius: 60px;
+        border-bottom-right-radius: 130px;
+    }
+    30%{
+        background-color: rgb(111, 0, 255);
+        border-top-left-radius: 140px;
+        border-top-right-radius: 200px;
+        border-bottom-left-radius: 90px;
+        border-bottom-right-radius: 50px;
+    }
+    40%{
+        background-color: rgb(153, 0, 255);
+        border-top-left-radius: 200px;
+        border-top-right-radius: 120px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 170px;
+    }
+    50%{
+        background-color: rgb(156, 10, 201);
+        border-top-left-radius: 60px;
+        border-top-right-radius: 150px;
+        border-bottom-left-radius: 90px;
+        border-bottom-right-radius: 60px;
+    }
+    60%{
+        background-color: rgb(56, 148, 235);
+        border-top-left-radius: 140px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 160px;
+        border-bottom-right-radius: 80px;
+    }
+    70%{
+        background-color: rgb(36, 86, 201);
+        border-top-left-radius: 60px;
+        border-top-right-radius: 150px;
+        border-bottom-left-radius: 190px;
+        border-bottom-right-radius: 120px;
+    }
+    80%{
+        background-color: rgb(81, 14, 168);
+        border-top-left-radius: 140px;
+        border-top-right-radius: 60px;
+        border-bottom-left-radius: 80px;
+        border-bottom-right-radius: 200px;
+    }
+    90%{
+        background-color: rgb(119, 68, 185);
+        border-top-left-radius: 70px;
+        border-top-right-radius: 140px;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 150px;
+    }
+    100%{
+        background-color: rgb(25, 90, 220);
+        border-top-left-radius: 170px;
+        border-top-right-radius: 200px;
+        border-bottom-left-radius: 150px;
+        border-bottom-right-radius: 90px;
+    }
+}
+
+.display-error{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 0, 85);
+    border-radius: 20px;
+    justify-content: left;
+    position: fixed;
+    top: 20px;
+    padding: 5px;
+    width: 15%;
+    font-weight: bold;
+    color: white;
+    transition: all 500ms ease-in-out;
+}
+
+.display-error button{
+    border-radius: 30px;
+    margin-right: 40px;
+    cursor: pointer;
+    font-size: 12px;
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.display-success{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255, 225, 0);
+    border-radius: 20px;
+    justify-content: left;
+    position: fixed;
+    top: 20px;
+    padding: 5px;
+    width: 15%;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    transition: all 500ms ease-in-out;
+}
+
+.display-success button{
+    border-radius: 30px;
+    margin-right: 40px;
+    cursor: pointer;
+    font-size: 12px;
+    background-color: rgb(255, 0, 128);
+    color: white;
+    font-weight: bold;
+}

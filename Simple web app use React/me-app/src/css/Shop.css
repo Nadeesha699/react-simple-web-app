@@ -1,0 +1,194 @@
+.home-main {
+  margin-top: 9%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 150px;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.693);
+  padding: 15px;
+  text-align: center;
+  justify-content: space-around;
+  color: white;
+  box-shadow: 10px 10px 5px rgb(0, 0, 0);
+  transition: all 2000ms ease-in-out;
+}
+
+.card:hover {
+  background-color: rgb(255, 255, 255);
+  color: black;
+  letter-spacing: 2px;
+  border-color: black;
+  border-width: 4px;
+  width: 170px;
+  height: 220px;
+  box-shadow: 20px 20px 5px rgb(0, 0, 0);
+}
+
+.btn-add {
+  background-image: url(../image/background1.jpg);
+  background-position: center;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 3px;
+  width: 95px;
+  border-radius: 7px;
+  cursor: pointer;
+  padding: 4px;
+  font-size: 10px;
+  margin-top: 5%;
+  transition: all 1000ms ease-in-out;
+}
+
+.btn-add:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  letter-spacing: 7px;
+}
+
+.img-card {
+  width: 100%;
+  height: 80px;
+  border-radius: 5px;
+}
+
+.item {
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 6px;
+  font-family: monospace;
+}
+
+.price {
+  font-size: 12px;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.dis {
+  font-size: 10px;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+.card-background {
+  margin-top: 2.5%;
+  margin-bottom: 1.5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.btn-more {
+  background-image: url(../image/home-img2.jpg);
+  background-position: center;
+  background-size: cover;
+  color: rgb(255, 255, 255);
+  width: 5%;
+  padding: 6px;
+  border-radius: 10px;
+  font-weight: bold;
+  box-shadow: 15px 5px 5px black;
+  cursor: pointer;
+  letter-spacing: 2px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  transition: all 1000ms ease-in-out;
+  margin-left: 2.5%;
+}
+
+.btn-more:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  letter-spacing: 5px;
+  box-shadow: 15px 5px 5px rgba(0, 0, 0, 0);
+}
+
+.txt-list {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  letter-spacing: 8px;
+  font-size: 27px;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  text-shadow: 5px 5px 5px rgb(0, 0, 0);
+  margin-left: 2.5%;
+}
+
+.card-h-main {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.582);
+  border-radius: 10px;
+  padding: 3%;
+  position: fixed;
+  top: 2%;
+  left: 22%;
+  box-shadow: 15px 15px 15px rgb(0, 0, 0);
+  transition: all 1000ms ease-in-out;
+}
+
+.btn-close {
+  color: rgb(255, 255, 255);
+  background-color: rgba(0, 0, 0, 0);
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  cursor: pointer;
+  font-size: 10px;
+  margin-bottom: 5%;
+  transition: all 1000ms ease-in-out;
+  padding: 5px;
+  border-radius: 70px;
+}
+
+.btn-close:hover {
+  background-color: rgba(255, 255, 0, 0.442);
+}
+
+.card-hbackground {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  grid-gap: 20px;
+}
+
+.hcard {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 150px;
+  height: 200px;
+  background-color: rgb(241, 72, 148);
+  padding: 15px;
+  text-align: center;
+  justify-content: space-around;
+  color: white;
+  transition: all 2000ms ease-in-out;
+}
+
+.hcard:hover {
+  background-color: rgb(237, 172, 201);
+  color: black;
+  letter-spacing: 2px;
+  border-color: black;
+  border-width: 4px;
+}
+
+.home-main p{
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 2.5%;
+  transition: all 2000ms ease-in-out;
+  cursor: pointer;
+}
+
+.home-main p:hover{
+  color: rgb(255, 255, 255);
+  text-shadow: 20px 20px 10px black;
+}
